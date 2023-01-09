@@ -1,0 +1,208 @@
+body
+{
+	background: #28292b
+;
+padding-top: 50px;
+}
+
+.secondary
+{
+	font-family: serif;
+	font-size: 16;
+	color: white;
+	padding: 10px;
+}
+
+
+
+
+
+.nav-link
+{
+	color: white;
+
+}
+.nav-link:hover
+{
+  color: white;
+
+}
+.nav-item
+{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.nav-item:hover 
+{
+      background-color:#Fb4526;
+      transition: 0.7s;
+}
+
+
+
+.nav
+{
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.nav-link
+{
+  font-family: script;
+ font-size: 26px;
+}
+header
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 100px
+  z-index:1000;
+  background-color: #121212
+  }
+main
+{
+  display: grid;
+  grid-template-columns: 25% 30% 45%;
+  padding-top: 50px;
+  margin-bottom: 20px;
+
+
+}
+
+.About
+{
+  display: inline-block;
+  color: white;
+  margin-left: 30px;
+  font-family: publico;
+}
+
+.video
+{
+  padding-left: 50px;
+}
+.Home img
+{
+ 
+  border-radius: 50%;
+  width: 99%
+}
+.Home
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.Home div
+{
+ 
+  padding:10px;
+
+}
+footer
+{
+  background-color: #0e0e0e;
+
+            bottom: 0;
+            display: inline-block;
+            width: 100%;
+            /* Height of the footer*/
+            height: fit-content;
+            color: white;
+
+}
+footer a
+{
+  color: white;
+        text-decoration: none;
+
+}
+.f-link:hover
+{
+  
+      background-color:#Fb4526;
+      transition: 0.7s;
+      color: white;
+        text-decoration: none;
+
+
+}
+.logo
+{
+
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+}
+h2
+{
+  display: inline;
+  float: right;
+}
+.hours
+{
+
+
+  float: right;
+  padding-right: 50px
+}
+.address
+{
+  padding-top:10px;
+  padding-left: 50px;
+
+  display: inline-block;
+}
+footer p
+{
+  line-height: 10px;
+}
+footer h2
+{
+  line-height: 15px;
+}
+main img
+{
+  padding-right: 10px;
+}
+.producers
+{
+  opacity: 0.2;
+  color: grey;
+}
+.insta
+{
+   height: 40px;
+  width: 40px;
+  background-color: transparent;
+
+  margin-bottom: 10px;
+}
+.gallery
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+.gallery img
+{
+  height: 300px;
+  width: 350px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+
+}
+
+.gallery img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
