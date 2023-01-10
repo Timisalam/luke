@@ -198,7 +198,7 @@ main img
     -webkit-filter: grayscale(0);
     transition:0.7s;
 }
-@media (max-width: 600px) {
+@media (max-width: 525px) {
     .gallery {
         grid-template-columns: 1fr;
     }
@@ -212,7 +212,7 @@ main img
 }
 
 
-@media (max-width: 527px) 
+@media (max-width: 525px) 
 {
    .nav-item
   {
@@ -222,6 +222,6 @@ main img
   .nav-link
   {
     font-family: script;
-    font-size: 18px;
+    font-size: 20px;
   }
 }
