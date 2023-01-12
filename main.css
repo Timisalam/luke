@@ -64,6 +64,7 @@ main
   grid-template-columns: 25% 30% 45%;
   padding-top: 70px;
   margin-bottom: 20px;
+  padding:40px;
 
 
 }
@@ -76,9 +77,10 @@ main
   font-family: publico;
 }
 
-.video
+
+video
 {
-  padding-left: 50px;
+  width: 100%;
 }
 .Home img
 {
@@ -428,7 +430,7 @@ main img
         background-color:#2A2B2B;
    }
 }
-@media (min-width: 1000px)
+@media (min-width: 1300px)
 {
    .video
    {
