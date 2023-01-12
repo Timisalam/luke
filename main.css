@@ -225,7 +225,6 @@ main img
         align-items: center;
         justify-content: center;
               filter: none;
-              margin-left: 15px;
               -webkit-filter: grayscale(0);
           }
             .nav-item
@@ -236,7 +235,8 @@ main img
             .nav-link
             {
             font-family: script;
-            font-size: 22px;
+            font-size: 18px;
+            font-weight: 600px;
             }
     .hours
    {
@@ -320,7 +320,6 @@ main img
         align-items: center;
         justify-content: center;
               filter: none;
-              margin-left: 15px;
               -webkit-filter: grayscale(0);
           }
             .nav-item
@@ -332,6 +331,7 @@ main img
             {
             font-family: script;
             font-size: 22px;
+            font-weight: 600px;
             }
     .hours
    {
