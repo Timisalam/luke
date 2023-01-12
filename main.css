@@ -68,6 +68,15 @@ main
 
 
 }
+.bottom
+{
+   display: grid;
+  grid-template-columns: 25% 30% 45%;
+  padding-top: 70px;
+  margin-bottom: 20px;
+  padding:40px;
+
+}
 
 .About
 {
@@ -229,6 +238,10 @@ main img
       padding-bottom: 20px;
 
   }
+  video
+{
+  width: 100%;
+}
       .gallery 
       {
         grid-template-columns: 1fr;
@@ -272,14 +285,7 @@ main img
     font-size: 12px;
     display: inline-block;
    }
-   video
-   {
-      padding-left: 0px;
-      width: 250px;
-      height: 300px;
-      padding-bottom: 20px;
-
-   }
+  
    .video
    {
     padding-left: 0px;
@@ -334,6 +340,10 @@ main img
   height: 50px;
   width: 50px;
 
+}
+video
+{
+  width: 100%;
 }
       .gallery 
       {
