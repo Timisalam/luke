@@ -130,8 +130,8 @@ footer a
 .logo
 {
 
-  height: 60px;
-  width: 60px;
+  height: 70px;
+  width: 70px;
   background-color: transparent;
 }
 h2
@@ -316,15 +316,9 @@ main img
 }
 @media (max-width: 450px) 
 {
-  .logo
-  {
-
-  }
-
+  
   header
   {
-      padding-bottom: 20px;
-
   }
       .gallery 
       {
