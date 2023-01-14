@@ -261,7 +261,7 @@ main img
             }
             .nav a
             {
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 600px;
 
             }
@@ -321,4 +321,14 @@ main img
         background-color:#2A2B2B;
    }
 }
+@media (max-width: 450px)
+{
+.nav a
+            {
+            font-size: 12px;
+            font-weight: 600px;
+
+            }
+} 
+
 
