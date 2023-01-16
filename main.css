@@ -75,6 +75,7 @@ main
   color: white;
   margin-left: 30px;
   font-family: publico;
+  font-size: 20px;
 }
 
 
@@ -278,7 +279,7 @@ body
    }
    .About
    {
-    font-size: 12px;
+    font-size: 14px;
     display: inline-block;
    }
   
