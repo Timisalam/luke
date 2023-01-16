@@ -357,11 +357,11 @@ body
 
             }
 }
-@media(max-width: 300px)
+@media(max-width: 330px)
 {
   .nav a
             {
-            font-size: 12px;
+            font-size: 10px;
             font-weight: 600px;
             padding: 5px;
 
