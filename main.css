@@ -224,6 +224,11 @@ main img
   width: 60px;
 
 }
+body
+{
+      background-color:#2A2B2B;
+
+}
   header
   {
       padding-bottom: 20px;
@@ -350,6 +355,20 @@ main img
             font-weight: 600px;
 
             }
+}
+@media(max-width: 300px)
+{
+  .nav a
+            {
+            font-size: 12px;
+            font-weight: 600px;
+            padding: 5px;
+
+            }
+  .About h1
+  {
+    font-size: 12px;
+  }
 }
 
 
